@@ -9,3 +9,5 @@ function isArrayEmpty(arr) {
 }
 
 isArrayEmpty([])
+
+// [] is a truthy value despite being empty. Only " " is falsy.
