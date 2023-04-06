@@ -6,4 +6,4 @@ function evenOrOdd(number) {
 	} else console.log("odd")
 }
 
-evenOrOdd(3)
+evenOrOdd(21)
