@@ -37,6 +37,4 @@
 // console.log(arraysEqual([1, 2, 2], [1, 2, 3]));
 
 let a = ["e", "c", "h", "b", "d", "a"];
-a.sort();
-
 console.log(a.sort());

@@ -2,11 +2,18 @@
 
 let myArray = [1, 3, 6, 11, 4, 2, 4, 9, 17, 16, 0];
 
-let newArr = myArray.map((num) => {
+// let newArr = myArray.map((num) => {
+// 	if (num % 2 === 0) {
+// 		return "even";
+// 	} else return "odd";
+// });
+
+let newArr = [];
+for (let i = 0; i < myArray.length; i++) {
+	let num = myArray[i];
 	if (num % 2 === 0) {
-		return "even";
-	} else return "odd";
-});
+		newArr.push("even");
+	} else newArr.push("odd");
+}
+
 console.log(newArr);
-console.log(newArr.length);
-console.log(newArr.reverse());
