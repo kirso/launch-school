@@ -1,0 +1,21 @@
+let foo = {
+	a: "hello",
+	b: "world",
+};
+
+let qux = "hello";
+
+function bar(argument1, argument2) {
+	argument1.a = "hi";
+	argument2 = "hi"; // "hello" = "hi" undefined?
+}
+
+// foo {
+//   a: "hi",
+//   b: "world"
+// }
+
+bar(foo, qux);
+
+console.log(foo.a); // hi
+console.log(qux); // hello
