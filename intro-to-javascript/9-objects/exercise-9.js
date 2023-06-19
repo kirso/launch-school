@@ -7,7 +7,7 @@ let qux = "hello";
 
 function bar(argument1, argument2) {
 	argument1.a = "hi";
-	argument2 = "hi"; // "hello" = "hi" undefined?
+	argument2 = "hi"; // "hello" = "hi" undefined? strings and primitives are not mutable. 
 }
 
 // foo {

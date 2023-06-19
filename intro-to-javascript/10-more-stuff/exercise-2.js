@@ -14,3 +14,7 @@ ReferenceError: greeting is not defined
     at Function.Module.runMain (internal/modules/cjs/loader.js:774:12)
     at executeUserCode (internal/bootstrap/node.js:342:17)
     at startExecution (internal/bootstrap/node.js:276:5)
+
+
+    // in exercise2 javascript file on line 4, there is a reference error when logging the variable greeting. It seems like greeting is not defined or initialized. Javascript detected the error at column 15 of line 4 and the code seems to be in the `hello` function. 
+    // `hello` was called from line 13 in an anonymous function. 

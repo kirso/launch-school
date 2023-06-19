@@ -7,17 +7,11 @@ let words = [
 	"polar bear",
 ];
 
-// function allMatches(words, pattern) {
-// 	let matches = []
-// 	let match = words.map((word) => {
-// 		if (pattern.test(word) {
-// 			matches.push(match)
-// 		})
-// 	})
-
 function allMatches(words, pattern) {
-	return words.filter((word) => {
-		pattern.test(word);
+	let matches = [];
+	words.forEach((word) => {
+		if (pattern.test(word)) matches.push(word);
 	});
+	return matches;
 }
-console.log(allMatches(words, /lab/)); // => ['laboratory', 'flab', 'elaborate']
+console.log(allMatches(words, /lab/)); // =>

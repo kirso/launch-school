@@ -25,4 +25,6 @@ for (let value in arr) {
 
 console.log("bobcat".match(/x/));
 
-console.log("bobcat".match(/[bct]/g));
+console.log("bobcat".match(/[bct]/g))
+
+;

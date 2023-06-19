@@ -5,4 +5,4 @@ function doSomething(string) {
 		.map((value) => value.length); // loops through the values in the array and returns the length of the values
 }
 
-console.log(doSomething("hihello"));
+console.log(doSomething("hi hello"));
