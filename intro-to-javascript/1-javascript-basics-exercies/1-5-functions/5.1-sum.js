@@ -2,4 +2,4 @@ function sum(a, b) {
 	return a + b;
 }
 
-sum(22, 10); // 32
+console.log(sum(22, 10)); // 32
