@@ -5,3 +5,5 @@ function calculateBMI(height, weight) {
 }
 
 calculateBMI(180, 80);
+
+// Test
